@@ -158,10 +158,29 @@ a:focus {
 \*------------------------------------*/
 
 /*
-    Object: Object name
+    Objects: Row
     ---
-    Object description
+    Creates a horizontal row that stretches the viewport and adds padding around children
 */
+
+.o-row {
+    padding: 24px 24px 0;
+}
+
+.o-row--primary {
+    background-color: hotpink;
+    color: #fff;
+}
+
+.o-row--dark {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .o-row--lg {}
+}
+
 
 /*------------------------------------*\
   #COMPONENTS
