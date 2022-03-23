@@ -164,6 +164,7 @@ a:focus {
 */
 
 .o-row {
+    display: flow-root;
     padding: 24px 24px 0;
 }
 
@@ -178,7 +179,20 @@ a:focus {
 }
 
 @media (min-width: 768px) {
-    .o-row--lg {}
+    .o-row--lg {
+        padding: 48px 48px 24px;
+    }
+}
+
+/*
+    Objects: Container
+    ---
+    Creates a horizontal container that sets de global max-width and centers it horizontally
+*/
+
+.o-container {
+    max-width: 90em;
+    margin: 0 auto;
 }
 
 
@@ -199,18 +213,29 @@ a:focus {
 /*
     Utilities: max-width
     ---
-    Utility classes to put specific max widths onto elements.
+    Utility classes to put specific max widths onto elements
 */
 
 .u-max-width-sm {
-    max-width: 36em;
+    max-width: 36em !important;
 }
 
-/*
-    Utility: Utility name
-    ---
-    Utility description
-*/
+.u-max-width-md {
+    max-width: 45em !important;
+}
+
+.u-max-width-lg {
+    max-width: 60em !important;
+}
+
+.u-max-width-xl {
+    max-width: 75em !important;
+}
+
+.u-max-width-none {
+    max-width: none !important;
+}
+
 
 /*------------------------------------*\
   #MEDIA
