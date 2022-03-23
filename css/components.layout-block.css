@@ -5,14 +5,14 @@
 */
 
 .c-layout-block {
-    background-color: LightGrey;
-    padding: 8px 12px;
-    font-size: 14px;
-    line-height: 16px;
+  background-color: LightGrey;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .c-layout-block--ellipsis {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
